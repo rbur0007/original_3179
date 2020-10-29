@@ -42,6 +42,23 @@
 </body>
 
 
+<body>
+  <section class="section">
+    <div class="container"><div>
+      <h1 class="title">This is another section?</h1>
+      <div id="vis"></div>
+      <script type="text/javascript">
+      var spec = "https://raw.githubusercontent.com/rbur0007/FIT3179/main/launches_per_site_map.json";
+      vegaEmbed('#vis', spec).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+      </script>
+    </div>
+  </section>
+</body>
+
+
+
 
 </body>
 </html>
