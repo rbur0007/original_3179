@@ -21,7 +21,7 @@
       <p class="subtitle is-3">from 1957 - 2020</p>
     </div>
   </div>
-</section>
+  </section>
 
 <body>
   <section class="section">
@@ -31,35 +31,30 @@
         A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
       </h2>
       <script type="text/javascript">
-      var spec = "https://raw.githubusercontent.com/rbur0007/FIT3179/main/launches_per_site.json";
+      var spec = "https://raw.githubusercontent.com/rbur0007/FIT3179/main/launches_per_site_map.json";
       vegaEmbed('#vis', spec).then(function(result) {
         // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
       }).catch(console.error);
       </script>
     </div>
   </section>
+
+  <section class="section">
+    <div class="container"><div>
+      <h1 class="title">Section</h1>
+      <h2 class="subtitle">
+        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+      </h2>
+      <script type="text/javascript">
+      var spec = "https://raw.githubusercontent.com/rbur0007/FIT3179/main/times_of_launches.json";
+      vegaEmbed('#vis', spec).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+      </script>
+    </div>
+  </section>
+
 </body>
-
-
-
-<section class="hero">
-  <div id="vis"></div>
-    <script type="text/javascript">
-    var spec = "https://raw.githubusercontent.com/rbur0007/FIT3179/main/times_of_launches.json";
-    vegaEmbed('#vis', spec).then(function(result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
-    </script>
-
-  </div>
-</div>
-</section>
-
-
-
-
-
-
 
 
 
