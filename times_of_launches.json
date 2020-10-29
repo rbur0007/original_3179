@@ -3,7 +3,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/rbur0007/FIT3179/main/spacelaunch_daytime_single_count.csv"
   },
-  "mark": "circle",
+  "mark": {"type": "circle", "fill": "#05087F"},
   "encoding": {
     "y": {
       "field": "Datum",
