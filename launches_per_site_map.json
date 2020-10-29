@@ -3,6 +3,7 @@
   "width": 800,
   "height": 450,
   "title": "Space Launches per Launch Site",
+  "projection": {"type": "equalEarth"},
   "layer": [
     {
       "data": {
@@ -16,7 +17,7 @@
         "url": "https://raw.githubusercontent.com/rbur0007/FIT3179/main/spacelaunch_nolaunches_longlat.csv",
         "format": {"type": "csv"}
       },
-      "mark": {"type": "circle"},
+      "mark": {"type": "circle", "fill": "#050875"},
       "encoding": {
         "latitude": {"field": "Latitude", "type": "quantitative"},
         "longitude": {"field": "Longitude", "type": "quantitative"},
@@ -28,11 +29,6 @@
             "domain": [5, 20, 50, 100, 300, 400, 800, 1200]
           },
           "legend": {"title": "No. Launches"}
-        },
-        "color": {
-          "field": "launches",
-          "type": "quantitative",
-          "scale": {"scheme": "cividis"}
         }
       }
     }
